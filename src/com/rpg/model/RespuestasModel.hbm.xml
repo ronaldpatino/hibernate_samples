@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.rpg.model.RespuestasModel" table="respuestas" schema="public" catalog="hb">
+        <id name="id" column="id"/>
+        <property name="codigoDocumentoSri" column="codigo_documento_sri"/>
+        <property name="codigoLocal" column="codigo_local"/>
+        <property name="codigoPuntoVenta" column="codigo_punto_venta"/>
+        <property name="numeroFactura" column="numero_factura"/>
+        <property name="claveAcceso" column="clave_acceso"/>
+        <property name="numeroAutorizacion" column="numero_autorizacion"/>
+        <property name="resultado" column="resultado"/>
+        <property name="ambiente" column="ambiente"/>
+        <property name="identificador" column="identificador"/>
+        <property name="mensaje" column="mensaje"/>
+        <property name="informacionAdicional" column="informacion_adicional"/>
+        <property name="tipo" column="tipo"/>
+
+        <property name="fecha" column="fecha"/>
+        <property name="idFactura" column="id_factura"/>
+    </class>
+</hibernate-mapping>
