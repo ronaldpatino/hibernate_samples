@@ -6,8 +6,8 @@
     <session-factory>
         <property name="connection.url">jdbc:postgresql://localhost:5432/hb</property>
         <property name="connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.username">ronaldpatino</property>
-        <property name="connection.password">acdc1976</property>
+        <property name="connection.username">theuser</property>
+        <property name="connection.password">thepass</property>
         <mapping resource="com/rpg/model/MensajeModel.hbm.xml"/>
         <mapping resource="com/rpg/model/RespuestaModel.hbm.xml"/>
         <mapping resource="com/rpg/model/RespuestasModel.hbm.xml"/>
